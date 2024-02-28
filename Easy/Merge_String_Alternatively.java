@@ -1,4 +1,7 @@
+package Easy;
+
 import java.util.Scanner;
+
 
 public class Merge_String_Alternatively {
     public static void main(String[] args) {
