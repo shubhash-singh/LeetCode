@@ -1,5 +1,4 @@
-package Linear_Search.Easy;
-
+package Easy;
 import java.util.Scanner;
 
 public class SqrtOfX {
