@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/reverse-integer/
+# problem link
+
 def reverse_str(x) ->int:
     if x<0:
         result = str(x)
