@@ -17,4 +17,8 @@ public class Valid_Perfect_Square{
         }
         return false;
     }
+    public void test(){
+        StringBuilder result = new StringBuilder();
+        result.
+    }
 }
