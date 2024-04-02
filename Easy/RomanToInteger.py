@@ -6,10 +6,12 @@ class Solution:
         result = 0
         result += romanValues[s[0]]
         # return result
-        for i in range(1,len(s)-1):
-            if romanValues[s[i]] < romanValues[s[i]]:
-                result -= romanValues[s[i-1]]
-                result += romanValues[s[i]]
+        
+        while (i<n):
+            if romanValues[s[i]] < romanValues[s[i+1]]:
+                value = romanValues[s[i]] - romanValues[s[i-1]]
+                result += value
+                i +=1
             else:
                 result += romanValues[s[i]]
             print(result)
