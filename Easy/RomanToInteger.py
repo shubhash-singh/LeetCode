@@ -6,7 +6,7 @@ class Solution:
         result = 0
         result += romanValues[s[0]]
         # return result
-        
+        n = len(s)-1
         while (i<n):
             if romanValues[s[i]] < romanValues[s[i+1]]:
                 value = romanValues[s[i]] - romanValues[s[i-1]]
