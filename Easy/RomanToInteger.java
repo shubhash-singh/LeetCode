@@ -1,13 +1,13 @@
 package Easy;
 
+// https://leetcode.com/problems/roman-to-integer/
 import java.util.HashMap;
 import java.util.Scanner;
 
-// https://leetcode.com/problems/roman-to-integer/
-
 public class RomanToInteger {
-    static int romanToInt(String s ){
+    public static int romanToInt(String s ){
         int result = 0;
+        
         HashMap<String, Integer> romanValue = new HashMap<>();
         char[] str = s.toCharArray();
         romanValue.put("I", 1);
@@ -17,9 +17,17 @@ public class RomanToInteger {
         romanValue.put("C", 100);
         romanValue.put("D", 500);
         romanValue.put("M", 1000);
-        result += romanValue.get(String.valueOf(str[0]));
-        for(int i=1;i<str.length;i++){
-            result += romanValue.get(String.valueOf(str[i]));
+        
+        for (int i=0;i<str.length-1;i++){
+            int value = romanValue.get(String.valueOf(str[i]));
+            int nextVAlue = romanValue.get(String.valueOf(str[i+1]));
+            if (value < nextVAlue){
+                result += nextVAlue-value;
+            }
+            else{
+                result += value;
+            }
+            
         }
         return result;
     }

@@ -4,17 +4,19 @@ class Solution:
     def roman_to_integer(self, s:str) -> int:
         romanValues = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
         result = 0
-        result += romanValues[s[0]]
-        # return result
-        n = len(s)-1
-        while (i<n):
-            if romanValues[s[i]] < romanValues[s[i+1]]:
-                value = romanValues[s[i]] - romanValues[s[i-1]]
-                result += value
-                i +=1
+        last_value = 1000
+        for i in s:
+            value = romanValues[i]
+            if value > last_value:
+                result += value-last_value
             else:
-                result += romanValues[s[i]]
-            print(result)
+                result += value
+                       
+            last_value = value
+            print("VAlue: " , value)
+            
+            print('Result = ', result)
+            print('Lat Value: ', last_value,'\n')
         return result
     
 s = input().upper()
