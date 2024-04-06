@@ -15,8 +15,9 @@ public class MergeSortedArray {
         merge(nums1, m, nums2, n);
     }
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        for(int i=0; i<nums2.length;i++) {
-            nums1[m+i] = nums2[i];
+        for(int i : nums2) {
+            nums1[m] = i;
+            m++;
         }
         Arrays.sort(nums1);
     }
