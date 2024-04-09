@@ -8,8 +8,8 @@ class Solution(object):
         for i in s:
             if re.match(pattern, i):
                 string += i
-            print(string)
-        if string == string[::-1]:
+            # print(string)
+        if string.lower() == string[::-1].lower():
             return True
         return False
 
