@@ -6,6 +6,10 @@ public class ValidPalindrome {
     }
 
     public static boolean palindrome(String str){
-        
+        char[] arr = str.toCharArray();
+        for (char i : arr){
+            if(i.isalpha()){
+                
+        }
     }
 }
