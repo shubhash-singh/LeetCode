@@ -3,7 +3,7 @@ import re
 
 class Solution(object):
     def isPalindrome(self, s):
-        pattern = r'[A-Za-z]'
+        pattern = r'[A-Za-z0-9]'
         string = ""
         for i in s:
             if re.match(pattern, i):
