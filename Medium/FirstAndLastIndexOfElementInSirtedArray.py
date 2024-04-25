@@ -14,7 +14,7 @@ class Solution(object):
             return result
         else:
             result[0] = nums.index(target)
-            result[1] - nums[::-1].index(target)
+            result[1] = len(nums) - 1 - nums[::-1].index(target)
                         
         return result
     
