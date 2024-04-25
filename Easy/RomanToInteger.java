@@ -17,23 +17,35 @@ public class RomanToInteger {
         romanValue.put("C", 100);
         romanValue.put("D", 500);
         romanValue.put("M", 1000);
-        
-        for (int i=0;i<str.length-1;i++){
+        int i = 0;
+        while(i<str.length-1){
+            System.out.println("i : " + i);
             int value = romanValue.get(String.valueOf(str[i]));
+            System.out.println("Value: " + value);
             int nextVAlue = romanValue.get(String.valueOf(str[i+1]));
+            System.out.println("nextValue : " + nextVAlue);
+
             if (value < nextVAlue){
                 result += nextVAlue-value;
+                i += 2;
             }
             else{
                 result += value;
+                i++;
             }
             
+            System.out.println("Result : " + result);
+
+            
+        }
+        if (i == str.length-1){
+            result += romanValue.get(String.valueOf(str[i]));
         }
         return result;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+        String str = sc.nextLine().toUpperCase();
         sc.close();
         System.out.println(romanToInt(str));
 
