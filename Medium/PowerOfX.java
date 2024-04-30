@@ -4,7 +4,7 @@ class PowerOfX{
             return 1;
         }
         else if (n<0){
-            if (n<0){
+            if (n%2==0){
                 x = Math.abs(x);
                 if (n==Integer.MIN_VALUE){
                     return(1/Math.pow(x, Math.abs(n+1)));
