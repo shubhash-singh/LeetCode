@@ -16,11 +16,18 @@ public class FindPeakElement {
                 return i;
             }
         }
-        if (nums.length ==2){
-            if (nums[0]>nums[1]) return 0;
-            else return 1;
+        int max = nums[0];
+        int maxIndex = 0;
+
+        // Loop through the array starting from the second element.
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] > max) {
+                max = nums[j]; // Update max if current element is larger.
+                maxIndex = j; // Update maxIndex accordingly.
+            }
         }
-        return 0;
+
+        return maxIndex;
         
     }
 }
