@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IntersectionOfTwoArrayII",
+      "request": "launch",
+      "mainClass": "Easy.IntersectionOfTwoArrayII",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "SearchInsertPosition",
       "request": "launch",
       "mainClass": "Easy.SearchInsertPosition",
