@@ -1,4 +1,6 @@
 # https://leetcode.com/problems/regular-expression-matching/
+
+# TODO: Not Solved yet
 import re
 
 class Solution:
@@ -14,4 +16,4 @@ class Solution:
         
         
 a = Solution()
-print(a.isMatch("aa", "a*"))
+print(a.isMatch("abc", "a***abc"))
