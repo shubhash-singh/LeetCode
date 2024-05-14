@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountNegativeNumbersinaSortedMatrix",
+      "request": "launch",
+      "mainClass": "Easy.CountNegativeNumbersinaSortedMatrix",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "IntersectionOfTwoArrayII",
       "request": "launch",
       "mainClass": "Easy.IntersectionOfTwoArrayII",
