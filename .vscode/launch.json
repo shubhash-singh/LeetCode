@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SingleElementInSortedArray",
+      "request": "launch",
+      "mainClass": "SingleElementInSortedArray",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "CountNegativeNumbersinaSortedMatrix",
       "request": "launch",
       "mainClass": "Easy.CountNegativeNumbersinaSortedMatrix",
