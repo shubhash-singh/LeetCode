@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountPrime",
+      "request": "launch",
+      "mainClass": "CountPrime",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "SingleElementInSortedArray",
       "request": "launch",
       "mainClass": "SingleElementInSortedArray",
