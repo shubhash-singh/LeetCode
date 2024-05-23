@@ -1,7 +1,7 @@
 
 // https://leetcode.com/problems/count-primes/
 
-// TODO: Not solved
+// TODO: Not solved yet
 public class CountPrime {
     public static void main(String[] args) {
         int n = 1000;
