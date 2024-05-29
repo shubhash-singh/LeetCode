@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReducingToOne",
+      "request": "launch",
+      "mainClass": "ReducingToOne",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "SearchingInRotedSortedArray",
       "request": "launch",
       "mainClass": "SearchingInRotedSortedArray",
