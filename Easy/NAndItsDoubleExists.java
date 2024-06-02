@@ -1,5 +1,5 @@
 package Easy;
-
+// https://leetcode.com/problems/check-if-n-and-its-double-exist/
 public class NAndItsDoubleExists {
     public boolean checkIfExist(int[] arr) {
         for(int i=0;i<arr.length;i++){
