@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SmallestEvenMultipl",
+      "request": "launch",
+      "mainClass": "Easy.SmallestEvenMultipl",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "Base7",
       "request": "launch",
       "mainClass": "Easy.Base7",
