@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AverageWaitingTime",
+      "request": "launch",
+      "mainClass": "AverageWaitingTime",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "ScoreOfString",
       "request": "launch",
       "mainClass": "Easy.ScoreOfString",
