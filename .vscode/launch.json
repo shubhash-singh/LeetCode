@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HappyNumber",
+      "request": "launch",
+      "mainClass": "Easy.HappyNumber",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "GreatestCommonDivisorOfArray",
       "request": "launch",
       "mainClass": "Easy.GreatestCommonDivisorOfArray",
