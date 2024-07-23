@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Base7",
+      "request": "launch",
+      "mainClass": "Easy.Base7",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "AverageWaitingTime",
       "request": "launch",
       "mainClass": "AverageWaitingTime",
