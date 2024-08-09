@@ -16,6 +16,7 @@ public class MagicSquaresInside {
     public void help(int x,int y,int mat[][])
     {
        int sum[]=new int[3];
+       
        int sumcol[]=new int[3];
        boolean[] arr=new boolean[10];
 
