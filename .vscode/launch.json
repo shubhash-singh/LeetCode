@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "CombinationSumII",
+      "request": "launch",
+      "mainClass": "CombinationSumII",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
