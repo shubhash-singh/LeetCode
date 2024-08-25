@@ -1,4 +1,5 @@
-class LemonadeChange {
+package Easy;
+public class LemonadeChange {
     public boolean lemonadeChange(int[] bills) {
         int five_dollars = 0, ten_dollars = 0;
 
