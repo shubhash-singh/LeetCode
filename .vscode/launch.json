@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StudentReplaceTheChalk",
+      "request": "launch",
+      "mainClass": "Easy.StudentReplaceTheChalk",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "MaximumDistanceinArrays",
       "request": "launch",
       "mainClass": "MaximumDistanceinArrays",
