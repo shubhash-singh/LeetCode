@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "InsertGCDinLinkedList",
+      "request": "launch",
+      "mainClass": "InsertGCDinLinkedList",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "StudentReplaceTheChalk",
       "request": "launch",
       "mainClass": "Easy.StudentReplaceTheChalk",
