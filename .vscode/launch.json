@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountingBits",
+      "request": "launch",
+      "mainClass": "Easy.CountingBits",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "InsertGCDinLinkedList",
       "request": "launch",
       "mainClass": "InsertGCDinLinkedList",
