@@ -1,5 +1,6 @@
 public class IntegerReplacement {
-    public static int integerReplacement(int n) {
+    public static int integerReplacement(int num) {
+        long n = num;
         int count = 0;
         while (n != 1){
             if ((n & 1) == 0){
