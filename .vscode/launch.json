@@ -3,9 +3,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "ReverseBits",
+      "name": "XORQueriesofaSubarray",
       "request": "launch",
-      "mainClass": "Easy.ReverseBits",
+      "mainClass": "XORQueriesofaSubarray",
       "projectName": "LeetCode_e6569d8c"
     },
     {
