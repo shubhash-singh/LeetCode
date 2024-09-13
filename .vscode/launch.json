@@ -3,44 +3,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "XORQueriesofaSubarray",
+      "name": "IntegerReplacement",
       "request": "launch",
-      "mainClass": "XORQueriesofaSubarray",
-      "projectName": "LeetCode_e6569d8c"
-    },
-    {
-      "type": "java",
-      "name": "CountingBits",
-      "request": "launch",
-      "mainClass": "Easy.CountingBits",
-      "projectName": "LeetCode_e6569d8c"
-    },
-    {
-      "type": "java",
-      "name": "InsertGCDinLinkedList",
-      "request": "launch",
-      "mainClass": "InsertGCDinLinkedList",
-      "projectName": "LeetCode_e6569d8c"
-    },
-    {
-      "type": "java",
-      "name": "StudentReplaceTheChalk",
-      "request": "launch",
-      "mainClass": "Easy.StudentReplaceTheChalk",
-      "projectName": "LeetCode_e6569d8c"
-    },
-    {
-      "type": "java",
-      "name": "MaximumDistanceinArrays",
-      "request": "launch",
-      "mainClass": "MaximumDistanceinArrays",
-      "projectName": "LeetCode_e6569d8c"
-    },
-    {
-      "type": "java",
-      "name": "CombinationSumII",
-      "request": "launch",
-      "mainClass": "CombinationSumII",
+      "mainClass": "IntegerReplacement",
       "projectName": "LeetCode_e6569d8c"
     },
     {
