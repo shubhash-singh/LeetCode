@@ -1,5 +1,7 @@
 package Easy;
 
+// https://leetcode.com/problems/find-the-encrypted-string/
+
 public class FindtheEncryptedString {
     public String getEncryptedString(String s, int k) {
         StringBuilder result = new StringBuilder();
