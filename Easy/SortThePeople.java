@@ -14,10 +14,10 @@ public class SortThePeople {
             mapPair.put(heights[i], names[i]);
         }
         String[] res = new String[names.length];
-        Arrays.sort(heights, );
-
-        for(int i=0;i<names.length;i++){
-            res[i] = mapPair.get(heights[i]);
+        Arrays.sort(heights);
+        int j = 0;
+        for(int i=names.length - 1;i>=0;i--){
+            res[j++] = mapPair.get(heights[i]);
 
         }
         return res;
