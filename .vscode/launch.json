@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReversePrefixofWord",
+      "request": "launch",
+      "mainClass": "Easy.ReversePrefixofWord",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "MinimumStringLengthAfterRemovingSubstrings",
       "request": "launch",
       "mainClass": "Easy.MinimumStringLengthAfterRemovingSubstrings",
