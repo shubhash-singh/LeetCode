@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumAddtoMakeParenthesesValid",
+      "request": "launch",
+      "mainClass": "MinimumAddtoMakeParenthesesValid",
+      "projectName": "LeetCode_e6569d8c"
+    },
+    {
+      "type": "java",
       "name": "MinimumNumberofSwapstoMaketheStringBalanced",
       "request": "launch",
       "mainClass": "MinimumNumberofSwapstoMaketheStringBalanced",
