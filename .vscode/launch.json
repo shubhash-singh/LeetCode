@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HarshadNumber",
+            "request": "launch",
+            "mainClass": "Easy.HarshadNumber",
+            "projectName": "LeetCode_e6569d8c"
+        }
+    ]
+}
