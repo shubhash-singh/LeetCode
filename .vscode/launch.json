@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "HarshadNumber",
+            "name": "MostBeautifulItemforEachQuery",
             "request": "launch",
-            "mainClass": "Easy.HarshadNumber",
+            "mainClass": "MostBeautifulItemforEachQuery",
             "projectName": "LeetCode_e6569d8c"
         }
     ]
