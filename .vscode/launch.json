@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CounttheNumberofFairPairs",
+            "request": "launch",
+            "mainClass": "CounttheNumberofFairPairs",
+            "projectName": "LeetCode_e6569d8c"
+        },
+        {
+            "type": "java",
             "name": "MostBeautifulItemforEachQuery",
             "request": "launch",
             "mainClass": "MostBeautifulItemforEachQuery",
