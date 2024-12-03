@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringCompression",
+            "request": "launch",
+            "mainClass": "StringCompression",
+            "projectName": "LeetCode_e6569d8c"
+        },
+        {
+            "type": "java",
             "name": "DefusetheBomb",
             "request": "launch",
             "mainClass": "Easy.DefusetheBomb",
