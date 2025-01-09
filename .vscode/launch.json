@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountPrefixesofaGivenString",
+            "request": "launch",
+            "mainClass": "Easy.CountPrefixesofaGivenString",
+            "projectName": "LeetCode_e6569d8c"
+        },
+        {
+            "type": "java",
             "name": "StringCompression",
             "request": "launch",
             "mainClass": "StringCompression",
