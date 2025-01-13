@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumLengthofStringAfterOperations",
+            "request": "launch",
+            "mainClass": "Daily_Coding_Challange_2025.MinimumLengthofStringAfterOperations",
+            "projectName": "LeetCode_e6569d8c"
+        },
+        {
+            "type": "java",
             "name": "CountPrefixesofaGivenString",
             "request": "launch",
             "mainClass": "Easy.CountPrefixesofaGivenString",
