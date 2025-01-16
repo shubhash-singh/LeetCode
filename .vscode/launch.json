@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BitwiseXORofAllPairings",
+            "request": "launch",
+            "mainClass": "Daily_Coding_Challange_2025.BitwiseXORofAllPairings",
+            "projectName": "LeetCode_e6569d8c"
+        },
+        {
+            "type": "java",
             "name": "MinimumLengthofStringAfterOperations",
             "request": "launch",
             "mainClass": "Daily_Coding_Challange_2025.MinimumLengthofStringAfterOperations",
