@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NeighboringBitwiseXOR",
+            "request": "launch",
+            "mainClass": "Daily_Coding_Challange_2025.NeighboringBitwiseXOR",
+            "projectName": "LeetCode_e6569d8c"
+        },
+        {
+            "type": "java",
             "name": "BitwiseXORofAllPairings",
             "request": "launch",
             "mainClass": "Daily_Coding_Challange_2025.BitwiseXORofAllPairings",
