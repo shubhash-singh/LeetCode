@@ -1,5 +1,5 @@
 class Solution:
-    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+    def findRedundantConnection(self, edges: list[list[int]]) -> list[int]:
         root = list(range(len(edges) + 1)) # each node is root of own subtree
 
         def find_root(node):
