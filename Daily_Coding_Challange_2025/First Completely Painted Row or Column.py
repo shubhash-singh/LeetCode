@@ -1,5 +1,5 @@
 class Solution:
-    def firstCompleteIndex(self, arr: List[int], mat: List[List[int]]) -> int:
+    def firstCompleteIndex(self, arr: list[int], mat: list[list[int]]) -> int:
         rows, cols = len(mat), len(mat[0])
         position_map = {mat[r][c]: (r, c) for r in range(rows) for c in range(cols)}
         row_count = [cols] * rows
