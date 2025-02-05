@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ShuffleString",
+            "request": "launch",
+            "mainClass": "Easy.ShuffleString",
+            "projectName": "LeetCode_e6569d8c"
+        }
+    ]
+}
