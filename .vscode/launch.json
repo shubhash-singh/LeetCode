@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashDividedString",
+            "request": "launch",
+            "mainClass": "HashDividedString",
+            "projectName": "LeetCode_461a2388"
+        },
+        {
+            "type": "java",
             "name": "ShuffleString",
             "request": "launch",
             "mainClass": "Easy.ShuffleString",
