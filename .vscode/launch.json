@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShiftingLetters",
+            "request": "launch",
+            "mainClass": "ShiftingLetters",
+            "projectName": "LeetCode_461a2388"
+        },
+        {
+            "type": "java",
             "name": "HashDividedString",
             "request": "launch",
             "mainClass": "HashDividedString",
