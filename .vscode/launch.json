@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestNumberAfterMutatingSubstring",
+            "request": "launch",
+            "mainClass": "LargestNumberAfterMutatingSubstring",
+            "projectName": "LeetCode_461a2388"
+        },
+        {
+            "type": "java",
             "name": "ShiftingLetters",
             "request": "launch",
             "mainClass": "ShiftingLetters",
